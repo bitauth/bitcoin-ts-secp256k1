@@ -480,7 +480,7 @@ SECP256K1_API SECP256K1_WARN_UNUSED_RESULT int secp256k1_ecdsa_verify(
  *  'flipping' the sign of the random point R which is not included in the 
  *  signature.
  * 
- *  This method is added by bitcoin-ts to make testing of 
+ *  This method is added by Libauth to make testing of 
  *  secp256k1_ecdsa_signature_normalize easier.
  */
 SECP256K1_API int secp256k1_ecdsa_signature_malleate(
